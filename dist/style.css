@@ -764,8 +764,8 @@ td {
     margin-bottom: 7rem;
   }
 
-  .md\:max-w-screen-sm {
-    max-width: 640px;
+  .md\:max-w-screen-md {
+    max-width: 768px;
   }
 
   .md\:rounded-\[3rem\] {
