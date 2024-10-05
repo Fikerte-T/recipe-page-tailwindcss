@@ -1,0 +1,25 @@
+{
+  "name": "recipe-page-tailwindcss",
+  "version": "1.0.0",
+  "description": "![Design preview for the Recipe page coding challenge](./preview.jpg)",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss -i ./style.css -o ./dist/style.css",
+    "deploy": "npm run build && gh-pages -d ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fikerte-T/recipe-page-tailwindcss.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fikerte-T/recipe-page-tailwindcss/issues"
+  },
+  "homepage": "https://github.com/Fikerte-T/recipe-page-tailwindcss#readme",
+  "devDependencies": {
+    "gh-pages": "^6.1.1",
+    "tailwindcss": "^3.4.13"
+  }
+}
