@@ -716,6 +716,11 @@ td {
   line-height: 1.75rem;
 }
 
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -764,6 +769,11 @@ td {
     margin-bottom: 5rem;
   }
 
+  .md\:my-28 {
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+  }
+
   .md\:max-w-screen-sm {
     max-width: 640px;
   }
@@ -784,6 +794,21 @@ td {
   .md\:bg-white {
     --tw-bg-opacity: 1;
     background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
+  }
+
+  .md\:bg-stone100 {
+    --tw-bg-opacity: 1;
+    background-color: hsl(30 54% 90% / var(--tw-bg-opacity));
+  }
+
+  .md\:bg-rose50 {
+    --tw-bg-opacity: 1;
+    background-color: hsl(330 100% 98% / var(--tw-bg-opacity));
+  }
+
+  .md\:bg-stone600 {
+    --tw-bg-opacity: 1;
+    background-color: hsl(30 10% 34% / var(--tw-bg-opacity));
   }
 
   .md\:p-8 {
