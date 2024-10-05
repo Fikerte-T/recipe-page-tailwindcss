@@ -1,0 +1,26 @@
+/* @font-face {
+    font-family: 'YoungSerif';
+    src: url('/assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+} */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .description {
+        @apply my-6 font-normal;
+    }
+    span {
+        @apply font-bold;
+    }
+    h3 {
+        @apply font-serif text-brown800 text-3xl;
+    }
+    .amount {
+        @apply  text-brown800 font-bold
+    }
+    td {
+        @apply px-9 py-3
+    }
+   
+  }
