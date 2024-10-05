@@ -711,8 +711,8 @@ td {
   line-height: 2.5rem;
 }
 
-.text-xl {
-  font-size: 1.25rem;
+.text-lg {
+  font-size: 1.125rem;
   line-height: 1.75rem;
 }
 
@@ -759,9 +759,9 @@ td {
 }
 
 @media (min-width: 768px) {
-  .md\:my-20 {
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+  .md\:my-28 {
+    margin-top: 7rem;
+    margin-bottom: 7rem;
   }
 
   .md\:max-w-screen-sm {
@@ -776,9 +776,9 @@ td {
     border-radius: 0.75rem;
   }
 
-  .md\:bg-stone150 {
+  .md\:bg-stone100 {
     --tw-bg-opacity: 1;
-    background-color: hsl(30 18% 87% / var(--tw-bg-opacity));
+    background-color: hsl(30 54% 90% / var(--tw-bg-opacity));
   }
 
   .md\:bg-white {
