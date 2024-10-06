@@ -734,6 +734,11 @@ td {
   color: rgb(87 83 78 / var(--tw-text-opacity));
 }
 
+.text-stone900 {
+  --tw-text-opacity: 1;
+  color: hsl(24 5% 18% / var(--tw-text-opacity));
+}
+
 .marker\:font-bold *::marker {
   font-weight: 700;
 }
