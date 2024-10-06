@@ -613,6 +613,10 @@ td {
   width: 100%;
 }
 
+.max-w-\[616px\] {
+  max-width: 616px;
+}
+
 .max-w-full {
   max-width: 100%;
 }
@@ -734,6 +738,11 @@ td {
   color: rgb(87 83 78 / var(--tw-text-opacity));
 }
 
+.text-stone900 {
+  --tw-text-opacity: 1;
+  color: hsl(24 5% 18% / var(--tw-text-opacity));
+}
+
 .marker\:font-bold *::marker {
   font-weight: 700;
 }
@@ -764,8 +773,8 @@ td {
     margin-bottom: 7rem;
   }
 
-  .md\:max-w-screen-md {
-    max-width: 768px;
+  .md\:max-w-\[736px\] {
+    max-width: 736px;
   }
 
   .md\:rounded-\[3rem\] {
