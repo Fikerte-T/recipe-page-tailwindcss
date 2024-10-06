@@ -613,6 +613,10 @@ td {
   width: 100%;
 }
 
+.max-w-\[616px\] {
+  max-width: 616px;
+}
+
 .max-w-full {
   max-width: 100%;
 }
@@ -769,8 +773,8 @@ td {
     margin-bottom: 7rem;
   }
 
-  .md\:max-w-screen-md {
-    max-width: 768px;
+  .md\:max-w-\[736px\] {
+    max-width: 736px;
   }
 
   .md\:rounded-\[3rem\] {
